@@ -4,6 +4,7 @@
 ## CARLA版本 0.9.12
 ## 参考1 [CARLA-0.9.12](https://carla.readthedocs.io/en/0.9.12/) 
 ## 参考2 [livox_laser_simulation](https://github.com/Livox-SDK/livox_laser_simulation)
+## Release版 [CARLA_0.9.12_release](https://pan.baidu.com/s/1V3IVloabLNuIfS1HWm7JEA) 提取码 1234
 ---
 # 主要贡献
 + 对livox雷达进行仿真，包括对线号和intensity的仿真
