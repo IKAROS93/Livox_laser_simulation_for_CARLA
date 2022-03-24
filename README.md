@@ -7,7 +7,7 @@
 &
 [livox_laser_simulation](https://github.com/Livox-SDK/livox_laser_simulation)
 
-## Release version [CARLA_0.9.12_release](https://pan.baidu.com/s/1V3IVloabLNuIfS1HWm7JEA) ExtractionCode 1234
+## Release version [CARLA_0.9.12_release](https://pan.baidu.com/s/13jVmsSYXZfmdeD4TttYO-A) ExtractionCode 1234
 
 # Major contribution
 + Simulate the livox lidar, including the line number and intensity of livox.
