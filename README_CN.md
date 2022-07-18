@@ -15,6 +15,7 @@
     2.0-Avia
     3.0-Tele
 + 原有属性 `dropoff_intensity_limit`，`dropoff_zero_intensity`失效（由于采用了livox自定义的intensity计算方式)
++ 原有属性 `dropoff_general_rate`仍可对点云进行按比例随机抛弃
 
 ## 配置主要实现文件
 + 将`Unreal`文件夹中文件与`carla`主目录中文件进行替换或修改

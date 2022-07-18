@@ -18,6 +18,7 @@
     2.0-Avia
     3.0-Tele
 + Original attribute `dropoff_intensity_limit` and `dropoff_zero_intensity`will not be available (because of the livox-intensity)
++ Original attribute `dropoff_general_rate` still available. General proportion of points that are randomy dropped.
 
 ## Configure the main CPP files
 + Use the files in the `Unreal` folder to replace or modify the files in the `carla` home directory
