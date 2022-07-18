@@ -28,7 +28,7 @@
 ## Configure ROS-BRIDGE
 + Update the files in `carla-ros-bridge`
 ## Configure livox_csv files
-+ Put the `LivoxLaserCsv` folder in the **/home** directory and change its permission to *user*
++ Put the `LivoxCsv` folder in the **/home** directory and change its permission to *user*
 + This file contains the exit angle (azimuth / zenith angle) and timestamp of different lidar at each point in 4 seconds officially given by Livox
 ## Launch
 ```
