@@ -17,6 +17,8 @@
     1.0-Mid40
     2.0-Avia
     3.0-Tele
+    4.0-Mid360
+    5.0-HAP
 + Original attribute `dropoff_intensity_limit` and `dropoff_zero_intensity`will not be available (because of the livox-intensity)
 + Original attribute `dropoff_general_rate` still available. General proportion of points that are randomy dropped.
 

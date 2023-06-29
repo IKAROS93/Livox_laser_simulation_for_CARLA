@@ -74,7 +74,7 @@ struct CARLA_API FLidarDescription
   UPROPERTY(EditAnywhere)
   float Decay = 1.0f;
 
-  // lidar type. 0-horizon,1-mid40,2-avia,3-tele
+  // lidar type. 0-horizon,1-mid40,2-avia,3-tele,4-360,5-hap
   UPROPERTY(EditAnywhere)
   float LidarType = 0.0f;
 };

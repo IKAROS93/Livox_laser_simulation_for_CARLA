@@ -14,6 +14,8 @@
     1.0-Mid40
     2.0-Avia
     3.0-Tele
+    4.0-Mid360
+    5.0-HAP
 + 原有属性 `dropoff_intensity_limit`，`dropoff_zero_intensity`失效（由于采用了livox自定义的intensity计算方式)
 + 原有属性 `dropoff_general_rate`仍可对点云进行按比例随机抛弃
 

@@ -418,6 +418,8 @@ std::vector<std::vector<float>> ARayCastSemanticLidar::LivoxCsvReader()
       1--Mid40
       2--Avia
       3--Tele
+      4--Mid360
+      5--HAP
   */
 
   float check_csv = Description.LidarType;
@@ -441,6 +443,16 @@ std::vector<std::vector<float>> ARayCastSemanticLidar::LivoxCsvReader()
   {
     filename = "/home/LivoxCsv/tele.csv";
     std::cout << "Tele_csv file read successfully" << std::endl;
+  }
+  if (check_csv == 4.0)
+  {
+    filename = "/home/LivoxCsv/mid360.csv";
+    std::cout << "Mid360_csv file read successfully" << std::endl;
+  }
+  if (check_csv == 5.0)
+  {
+    filename = "/home/LivoxCsv/hap.csv";
+    std::cout << "HAP_csv file read successfully" << std::endl;
   }
 
   std::ifstream LivoxCsv(filename, std::ios::in);
